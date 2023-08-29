@@ -4,7 +4,7 @@
 ### IS THIS STILL MAINTAINING?
 > Yes ,this repository is still maintained and will be adding new feature's also
 ### NOTE
-> This  Is  Old  repository of [@spotify_downloa_bot](https://t.me/Zpotify1) so, this maybe buggy and lack of many features than our bot ,but still this will be maintained and updated some features when we do new updates
+> This  Is  Old  repository of [@Zpotify](https://t.me/Zpotify1) so, this maybe buggy and lack of many features than our bot ,but still this will be maintained and updated some features when we do new updates
 ### WHICH  LANGUAGE AND TELEGRAM API  USED IN THIS ?
 > This bot is  created using python language and python  mtproto pyrogram telegram library 
 
