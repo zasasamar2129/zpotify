@@ -144,7 +144,7 @@ async def spotify_dl(Mbot,message: Message):
         pass
         chat=message.chat.id
         await Mbot.leave_chat(chat)
-        k = await Mbot.send_message(-1001744816254,f"{chat} {message.chat.username} or {message.from_user.id}")
+        k = await Mbot.send_message(-1001961244146,f"{chat} {message.chat.username} or {message.from_user.id}")
         await  k.pin()
         sp = f"I have left from {chat} reason: I Am Not  Admin "
         await Mbot.send_message(message.from_user.id,f"{sp}") 
@@ -203,7 +203,7 @@ async def spotify_dl(Mbot,message: Message):
                 audio["TITLE"] = f" {song.get('name')}"
                 audio["ORIGINALYEAR"] = song.get('year')
                 audio["YEAR_OF_RELEASE"] = song.get('year')
-                audio["WEBSITE"] = "https://t.me/spotify_downloa_bot"
+                audio["WEBSITE"] = "https://t.me/Zpotify1"
                 audio["GEEK_SCORE"] = "9"
                 audio["ARTIST"] = song.get('artist')                                                                            
                 audio["ALBUM"] = song.get('album')
@@ -507,7 +507,7 @@ async def spotify_dl(Mbot,message: Message):
         chat=message.chat.id
         try:
             await Mbot.leave_chat(chat)
-            k = await Mbot.send_message(-1001744816254,f"{chat} {message.chat.username} or {message.from_user.id}")
+            k = await Mbot.send_message(-1001961244146,f"{chat} {message.chat.username} or {message.from_user.id}")
             await  k.pin()
             sp = f"I have left from {chat} reason: I Am Not  Admin "
             await Mbot.send_message(message.from_user.id,f"{sp}")
@@ -563,7 +563,7 @@ async def spotify_dl(Mbot,message: Message):
         try:
             await message.reply_text(f"Done✅",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
-            await message.reply_text(f"Check out @spotify_downloa (music)  @spotifynewss(News)")
+            await message.reply_text(f"Check out @Zpotify1 (music) ")
             await m.delete()
         except:
             pass 
@@ -573,7 +573,7 @@ async def spotify_dl(Mbot,message: Message):
 async def feedback(Mbot,query):
       try:
           K = await query.message.edit(f"Feedback 🏴‍☠️",
-                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Press here", url="https://t.me/dailychannelsbot?start=spotify_downloa_bot")]]))
+                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Press here", url="https://t.me/dailychannelsbot?start=z_downloadbot")]]))
           H = print("New Feedback")
           if BUG:
              await copy(K,H)
@@ -586,7 +586,7 @@ async def bug(_,query):
           K = await query.message.edit(f'please report to the dev say "private version" with above  error occurred message')
           await sleep(2.3)
           H = await query.message.edit(f"Bug Report 🪲",
-                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Report to dev ", url="https://t.me/masterolic")]]))
+                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Report to dev ", url="https://t.me/madara2129")]]))
           if BUG:
              await copy(K,H)
       except Exception as e:
