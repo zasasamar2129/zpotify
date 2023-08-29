@@ -1,19 +1,19 @@
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
-[DEMO VERSION  @Spotify_downloa_bot ](https://t.me/Spotify_downloa_bot)
+[DEMO VERSION  @Zpotify1 ](https://t.me/Zpotify1)
 ### IS THIS STILL MAINTAINING?
 > Yes ,this repository is still maintained and will be adding new feature's also
 ### NOTE
-> This  Is  Old  repository of [@spotify_downloa_bot](https://t.me/Spotify_downloa_bot) so, this maybe buggy and lack of many features than our bot ,but still this will be maintained and updated some features when we do new updates
+> This  Is  Old  repository of [@spotify_downloa_bot](https://t.me/Zpotify1) so, this maybe buggy and lack of many features than our bot ,but still this will be maintained and updated some features when we do new updates
 ### WHICH  LANGUAGE AND TELEGRAM API  USED IN THIS ?
 > This bot is  created using python language and python  mtproto pyrogram telegram library 
 
 ### DONATE ME PLEASE ❣️
 > Please buy me a piza by using bellow link 👇👇👇
-[Buy Me A Piza](https://www.buymeacoffee.com/Masterolic)
+[Buy Me A Piza](https://ko-fi.com/zasasamar)
 
 ### RATE OUR BOT 
-> Rate our  bot [FEEDBACK](https://t.me/dailychannelsbot?start=spotify_downloa_bot)
+> Rate our  bot [FEEDBACK](https://t.me/dailychannelsbot?start=#)
 
 ### ABOUT
 > A Simple Open Source  Spotify Downloader Bot For Telegram 
@@ -24,7 +24,7 @@
 ### IS THIS SOURCE CODE IS USED FOR [@Spotify_downloa_bot](https://t.me/Spotify_downloa_bot)
 > NO, This [bot](https://github.com/rozari0/NeedMusicRobot) was the insperation to build our bot ,you can see our bot is entirely different From it some of the features will be implementing to this repoiostry 
 ### EASY WAY TO  DEPLOY IN  LOCAL/VPS ?
-> First add variables in [config.env](https://github.com/Masterolic/Spotify-Downloader/blob/Latest/config.env)
+> First add variables in [config.env](https://github.com/zasasamar2129/Spotify-Downloader/blob/Latest/config.env)
 
 
 ```
@@ -63,7 +63,7 @@ python3 -m mbot
 ### CAN I CONTACT OWNER ?
  >  IF you need any help or need to add any features or tell feedback , don't hesitate to contact me 
 
-[INSTAGRAM](https://instagram.com/masterolic_official)
+[INSTAGRAM](https://instagram.com/zaco.game)
 
 
-[TELEGRAM](https://t.me/Masterolic)
+[TELEGRAM](https://t.me/madara2129)
