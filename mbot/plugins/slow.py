@@ -1,4 +1,4 @@
-###https://Spotify-downloa_bot
+###https://google.com
 from pyrogram.errors import FloodWait,Forbidden,UserIsBlocked,MessageNotModified,ChatWriteForbidden, SlowmodeWait
 from datetime import datetime
 import time 
@@ -43,16 +43,13 @@ supported_link = [ "www.deezer.com", "open.spotify.com",
 ]
 
 NOT_SUPPORT = [
-       -1001698167203,
-       -1001690327681,
-       -1001744816254,
-       -1001342321483,
-       -1001652993285,
-       -1001523223023,
+       -1001961244146,
+       -1001986775135,
+       -1001813545462,
 ]
 NO_SPAM = [
-   -1001690327681,
-   -1001342321483,
+   -1001961244146,
+   -1001813545462,
 ]
 #db = Database()
 genius = Genius("api_key")
@@ -206,6 +203,6 @@ async def search(Mbot: Mbot, query: CallbackQuery):
         try:
             await query.message.reply_text(f"Done✅",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
-            await query.message.reply_text(f"Check out @spotify_downloa (music)  @spotifynewss(News)")
+            await query.message.reply_text(f"Check out @z_downloadbot (music)  @Zpotify1(News)")
         except:
             pass     
