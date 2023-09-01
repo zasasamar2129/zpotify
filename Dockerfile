@@ -17,8 +17,5 @@ RUN apt update && apt upgrade -y && apt install gcc  ffmpeg python3 python3-pip 
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 RUN python3 -m pip install -U yt-dlp
-RUN apt install python3-pip
-RUN pip3 install --upgrade pip
-RUN apt install python-pip  -y
 COPY . .
 CMD ["python3", "-m", "mbot"]
