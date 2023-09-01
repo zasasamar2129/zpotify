@@ -21,7 +21,7 @@
 ### WHY I MADE THIS OPEN SOURCE  ?
 > The answer simple I Don't own this repo this is edited version of [@NeedMusicRobot](https://t.me/NeedMusicRobot)
 
-### IS THIS SOURCE CODE IS USED FOR [@Spotify_downloa_bot](https://t.me/Spotify_downloa_bot)
+### IS THIS SOURCE CODE IS USED FOR [@Z_downloadbot](https://t.me/z_downloadbot)
 > NO, This [bot](https://github.com/rozari0/NeedMusicRobot) was the insperation to build our bot ,you can see our bot is entirely different From it some of the features will be implementing to this repoiostry 
 ### EASY WAY TO  DEPLOY IN  LOCAL/VPS ?
 > First add variables in [config.env](https://github.com/zasasamar2129/zpotify/blob/Flac/config.env)
