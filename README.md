@@ -32,7 +32,9 @@ apt update && apt upgrade -y
 apt install git ffmpeg python3 python3-pip -y
 git clone https://github.com/zasasamar2129/zpotify.git
 cd zpotify/
-pip3 install -r requirements.txt 
+pip3 install -r requirements.txt
+python3 -m pip install -U pip setuptools wheel
+python3 -m pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
 python3 -m mbot 
 ```
 
