@@ -1,11 +1,7 @@
 {
   "name": "Zpotify",
   "description": "A simple Telegram bot to download music.",
-  "keywords": [
-    "bot",
-    "music",
-    "music downloader"
-  ],
+  "keywords": ["bot", "music", "music downloader"],
   "repository": "https://github.com/zasasamar2129/zpotify",
   "website": "https://t.me/Zpotify1",
   "success_url": "https://t.me/Zpotify1",
@@ -50,7 +46,7 @@
       "value": "4fe3fecfe5334023a1472516cc99d805"
     }
   },
-"buildpacks": [
+  "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     },
