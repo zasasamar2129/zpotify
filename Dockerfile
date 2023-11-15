@@ -3,9 +3,6 @@ FROM python:3.8-slim-buster
 RUN apt-get update \
     && apt-get install -y --no-install-recommends python3-pip git \
     && rm -rf /var/lib/apt/lists/*
-    && curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp \
-    && chmod a+rx /usr/local/bin/yt-dlp \
-    && yt-dlp -U \
 RUN pip3 install --upgrade pip
 
 WORKDIR /music
