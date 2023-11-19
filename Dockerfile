@@ -16,6 +16,9 @@ RUN chmod 755 /music
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt --no-cache-dir
 
+# Expose the desired port
+EXPOSE 8080
+
 COPY . .
 
 CMD ["python3", "-m", "mbot"]
