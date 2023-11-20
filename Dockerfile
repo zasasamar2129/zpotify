@@ -21,4 +21,4 @@ EXPOSE 8080
 
 COPY . .
 
-CMD ["python3", "-m", --port", "8080", "mbot"]
+CMD ["python3", "-m", "mbot", "--port", "8080"]
