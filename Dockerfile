@@ -21,4 +21,4 @@ EXPOSE 80
 
 COPY . .
 
-CMD ["python3", "-m","-g","mbot","8080"]
+CMD ["python3", "-m","mbot","8080"]
