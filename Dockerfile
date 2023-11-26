@@ -21,4 +21,4 @@ EXPOSE 80
 
 COPY . .
 
-CMD ["python3", "-m","-g","mbot","runserver","8000"]
+CMD ["python3", "-m","-g","mbot","8000"]
