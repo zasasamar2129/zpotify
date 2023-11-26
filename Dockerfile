@@ -17,8 +17,8 @@ COPY requirements.txt .
 RUN pip3 install -r requirements.txt --no-cache-dir
 
 # Expose the desired port
-EXPOSE 8080
+EXPOSE 80
 
 COPY . .
 
-CMD ["python3", "-m","mbot","runserver","0.0.0.0:8000"]
+CMD ["python3", "-m","-g","mbot","runserver","8000"]
