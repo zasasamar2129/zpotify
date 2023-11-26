@@ -21,4 +21,4 @@ EXPOSE 8080
 
 COPY . .
 
-CMD ["python3", "-m","mbot","8080"]
+CMD ["python3", "-m","mbot","musicbot","8080"]
