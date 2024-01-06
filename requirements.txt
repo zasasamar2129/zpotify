@@ -1,8 +1,9 @@
 ###
-pyrogram==2.0.38
+Pyrogram==2.0.106
+ffmpeg-python
 tgcrypto
 lyricsgenius
-https://github.com/Masterolic/yt-dlp/archive/refs/heads/master.zip
+https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
 python-dotenv
 requests
 asgiref
