@@ -133,7 +133,7 @@ async def search(Mbot: Mbot, query: CallbackQuery):
                 audio["TITLE"] = f" {song.get('name')}"
                 audio["ORIGINALYEAR"] = song.get('year')
                 audio["YEAR_OF_RELEASE"] = song.get('year')
-                audio["WEBSITE"] = "https://t.me/spotify_downloa_bot"
+                audio["WEBSITE"] = "https://t.me/Zpotify1_bot"
                 audio["GEEK_SCORE"] = "9"
                 audio["ARTIST"] = song.get('artist')                                                                            
                 audio["ALBUM"] = song.get('album')
@@ -206,6 +206,6 @@ async def search(Mbot: Mbot, query: CallbackQuery):
         try:
             await query.message.reply_text(f"Done✅",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
-            await query.message.reply_text(f"Check out @spotify_downloa (music)  @spotifynewss(News)")
+            await query.message.reply_text(f"Check out @z_downloadbot (music)  @spotifynewss(News)")
         except:
             pass     
