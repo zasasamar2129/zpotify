@@ -11,5 +11,8 @@ RUN apt update && apt upgrade -y && apt install gcc  ffmpeg python3 python3-pip 
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 COPY . .
+# Clever Cloud run on p:80
 EXPOSE 8080
+RUN rustc -V
+
 CMD ["python3", "-m", "mbot"]
