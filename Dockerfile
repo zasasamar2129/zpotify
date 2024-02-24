@@ -13,6 +13,5 @@ RUN pip3 install -r requirements.txt
 COPY . .
 # Clever Cloud run on p:80
 EXPOSE 8080
-RUN rustc -V
 
 CMD ["python3", "-m", "mbot"]
