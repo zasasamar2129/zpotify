@@ -40,7 +40,7 @@ Buildpack ffmpeg Url [click here](https://elements.heroku.com/buildpacks/jonatha
 ```
 apt update && apt upgrade -y 
 apt install git ffmpeg python3 python3-pip -y
-git clone https://github.com/zasasamar2129/zpotifySpotify-Downloader.git 
+git clone https://github.com/zasasamar2129/zpotify.git
 cd Spotify-Downloader/
 pip3 install -r requirements.txt 
 python3 -m mbot 
